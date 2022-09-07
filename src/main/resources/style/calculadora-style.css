@@ -46,6 +46,7 @@
 .botao-apagar {
 	-fx-background-color: #FF5733;
 	-fx-cursor: hand;
+	-fx-border-color:  #7F8487;
 }
 
 .botao-apagar:hover {
