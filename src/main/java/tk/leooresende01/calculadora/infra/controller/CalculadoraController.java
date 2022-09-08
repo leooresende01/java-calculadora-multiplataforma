@@ -11,21 +11,24 @@ import tk.leooresende01.calculadora.infra.service.CalculadoraService;
 
 public class CalculadoraController implements Initializable {
 	@FXML
-	private Button um, dois, tres, quatro, 
+	private Button zero, um, dois, tres, quatro, 
 	cinco, seis, sete, oito, nove, 
 	menos, mais, multiplicacao, 
 	divisao, apagar, calcular;
 	
 	@FXML
-	private Label operador, resultado;
+	private Label operador, resultado, valorQueVaiSerCalculado;
 	
 	private CalculadoraService service;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		this.service = new CalculadoraService(this.resultado, this.operador);
-		this.service.definirEventoDosBotoesNumerais(um, dois, tres, quatro, 
+		this.service = new CalculadoraService(this.resultado, this.operador, this.valorQueVaiSerCalculado);
+		this.service.definirEventoDosBotoesNumerais(zero, um, dois, tres, quatro, 
 				cinco, seis, sete, oito, nove);
 		this.service.definirEventoDosBotaoDeApagar(this.apagar);
+		this.service.definirEventoAosBotoesDeCalcular(this.divisao, this.multiplicacao, 
+				this.menos, this.mais);
+		this.service.definirEventoDeCalcular(this.calcular);
 	}
 }
