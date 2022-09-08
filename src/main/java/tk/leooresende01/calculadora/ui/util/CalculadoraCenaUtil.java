@@ -6,8 +6,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class CalculadoraCenaUtil {
-	private static final Double JANELA_LARGURA = 400.0;
-	private static final Double JANELA_ALTURA = 550.0;
+	private static final Double JANELA_LARGURA = 350.0;
+	private static final Double JANELA_ALTURA = 500.0;
 
 	public static void definirCena(String fxmlLocation, Scene cena) {
 		try {

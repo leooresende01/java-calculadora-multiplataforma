@@ -14,7 +14,7 @@ public class CalculadoraController implements Initializable {
 	private Button zero, um, dois, tres, quatro, 
 	cinco, seis, sete, oito, nove, 
 	menos, mais, multiplicacao, 
-	divisao, apagar, calcular;
+	divisao, apagar, calcular, resetarCalculos;
 	
 	@FXML
 	private Label operador, resultado, valorQueVaiSerCalculado;
@@ -27,8 +27,9 @@ public class CalculadoraController implements Initializable {
 		this.service.definirEventoDosBotoesNumerais(zero, um, dois, tres, quatro, 
 				cinco, seis, sete, oito, nove);
 		this.service.definirEventoDoBotaoDeApagar(this.apagar);
-		this.service.definirEventoAosBotoesDeCalcular(this.divisao, this.multiplicacao, 
+		this.service.definirEventoAosBotoesOperadores(this.divisao, this.multiplicacao, 
 				this.menos, this.mais);
 		this.service.definirEventoDeCalcular(this.calcular);
+		this.service.definirEventoDeResetarCalculo(resetarCalculos);
 	}
 }

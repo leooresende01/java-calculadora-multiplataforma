@@ -50,15 +50,16 @@ public class CalculadoraService {
 		});
 	}
 
-	public void definirEventoAosBotoesDeCalcular(Button... botoesOperadores) {
-		Stream.of(botoesOperadores).forEach(button -> this.definirEventosAoBotaoDeCalculo(button));
+	public void definirEventoAosBotoesOperadores(Button... botoesOperadores) {
+		Stream.of(botoesOperadores).forEach(button -> this.definirEventosAoBotaoOperador(button));
 	}
 
-	private void definirEventosAoBotaoDeCalculo(Button button) {
+	private void definirEventosAoBotaoOperador(Button button) {
 		button.setOnAction(event -> {
-			this.operador.setText(button.getText());
 			String text = this.resultado.getText().replace("e", "");
-			this.valor1 = new BigDecimal(text);
+			if (this.valor1 != null || text.equals("0")) return;
+			this.operador.setText(button.getText());
+			this.valor1 = new BigDecimal(text);				
 			this.valorQueVaiSerCalculado.setText(text);
 			this.resultado.setText("0");
 		});
@@ -77,6 +78,13 @@ public class CalculadoraService {
 		});
 	}
 
+	public void definirEventoDeResetarCalculo(Button resetarCalculos) {
+		resetarCalculos.setOnAction(event -> {
+			this.zerarTodosOsValores();
+			this.resultado.setText("0");
+		});
+	}
+	
 	private void zerarTodosOsValores() {
 		this.isAfterResult = true;
 		this.operador.setText("");
@@ -84,5 +92,4 @@ public class CalculadoraService {
 		this.valor1 = null;
 		this.valor2 = null;
 	}
-
 }
