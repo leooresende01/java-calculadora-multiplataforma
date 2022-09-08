@@ -15,6 +15,9 @@
     }, 
     {
       "pattern":"\\Qfxml/calculadora.fxml\\E"
+    }, 
+    {
+      "pattern":"\\Qicon.png\\E"
     }
   ]},
   "bundles":[
