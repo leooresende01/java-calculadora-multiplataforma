@@ -1,0 +1,6 @@
+[HEADER]
+tk.leooresende01.calculadora.mainapplication.h
+graal_isolate.h
+tk.leooresende01.calculadora.mainapplication_dynamic.h
+graal_isolate_dynamic.h
+

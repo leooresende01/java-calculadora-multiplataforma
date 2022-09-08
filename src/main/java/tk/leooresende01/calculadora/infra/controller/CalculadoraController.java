@@ -26,7 +26,7 @@ public class CalculadoraController implements Initializable {
 		this.service = new CalculadoraService(this.resultado, this.operador, this.valorQueVaiSerCalculado);
 		this.service.definirEventoDosBotoesNumerais(zero, um, dois, tres, quatro, 
 				cinco, seis, sete, oito, nove);
-		this.service.definirEventoDosBotaoDeApagar(this.apagar);
+		this.service.definirEventoDoBotaoDeApagar(this.apagar);
 		this.service.definirEventoAosBotoesDeCalcular(this.divisao, this.multiplicacao, 
 				this.menos, this.mais);
 		this.service.definirEventoDeCalcular(this.calcular);

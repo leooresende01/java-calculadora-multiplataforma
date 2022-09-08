@@ -1,0 +1,50 @@
+Process
+=======
+compile
+
+Command Line
+============
+/mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp -H:EnableURLProtocols=http,https --initialize-at-build-time=com.gluonhq.charm.glisten.visual.MaterialDesignIcon -H:ReflectionConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/reflectionconfig-aarch64-android.json -H:JNIConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/jniconfig-aarch64-android.json -H:ResourceConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/resourceconfig-aarch64-android.json -H:-SpawnIsolates -Dsvm.targetArch=aarch64 -H:+ForceNoROSectionRelocations --libc=bionic -H:+UseCAPCache -H:CAPCacheDir=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/capcache -H:CompilerBackend=lir -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AARCH64 -cp /root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar:/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/classpathJar.jar --allow-incomplete-classpath tk.leooresende01.calculadora.MainApplication
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+Warning: Using a deprecated option --allow-incomplete-classpath from command line. Allowing an incomplete classpath is now the default. Use --link-at-build-time to report linking errors at image build time for a class or package.
+========================================================================================================================
+GraalVM Native Image: Generating 'tk.leooresende01.calculadora.mainapplication' (shared library)...
+========================================================================================================================
+Warning: Could not resolve com.sun.javafx.font.directwrite.DWRITE_GLYPH_METRICS for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWRITE_GLYPH_METRICS.
+Warning: Could not resolve com.sun.javafx.font.directwrite.DWRITE_GLYPH_RUN for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWRITE_GLYPH_RUN.
+Warning: Could not resolve com.sun.javafx.font.directwrite.RECT for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.RECT.
+Warning: Could not resolve com.sun.javafx.font.directwrite.DWFactory for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWFactory.
+[1/7] Initializing...                                                                                   (11.5s @ 0.16GB)
+ Version info: 'GraalVM 22.1.0.1 Java 17 CE'
+ Garbage collector: Serial GC
+The bundle named: com/sun/glass/ui/win/themes, has not been found. If the bundle is part of a module, verify the bundle name is a fully qualified class name. Otherwise verify the bundle path is accessible in the classpath.
+[2/7] Performing analysis...  [**********]                                                             (105.2s @ 2.20GB)
+  12,405 (90.58%) of 13,695 classes reachable
+  22,124 (65.87%) of 33,586 fields reachable
+  60,742 (63.85%) of 95,138 methods reachable
+     663 classes,   204 fields, and 3,026 methods registered for reflection
+     114 classes,   131 fields, and   185 methods registered for JNI access
+[3/7] Building universe...                                                                               (6.8s @ 3.02GB)
+[4/7] Parsing methods...      [**]                                                                       (4.3s @ 2.90GB)
+[5/7] Inlining methods...     [****]                                                                    (19.7s @ 1.47GB)
+[6/7] Compiling methods...    [********]                                                                (64.8s @ 2.19GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                       28.4s (11.7% of total time) in 58 GCs | Peak RSS: 4.65GB | CPU load: 2.96
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication.h (header)
+ /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/graal_isolate.h (header)
+ /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication_dynamic.h (header)
+ /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/graal_isolate_dynamic.h (header)
+ /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication.build_artifacts.txt
+========================================================================================================================
+Finished generating 'tk.leooresende01.calculadora.mainapplication' in 3m 58s.
+
+
+Result
+======
+result: 0

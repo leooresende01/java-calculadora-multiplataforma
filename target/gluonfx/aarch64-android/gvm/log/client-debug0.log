@@ -1,0 +1,602 @@
+[Wed Sep 07 21:32:26 BRT 2022][INFO] ==================== COMPILE TASK ====================
+[Wed Sep 07 21:32:28 BRT 2022][INFO] We will now compile your code for aarch64-linux-android. This may take some time.
+[Wed Sep 07 21:32:28 BRT 2022][FINE] Extracting native libs to: /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib
+[Wed Sep 07 21:32:28 BRT 2022][FINE] PB Command for objdump: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -f /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libdisplay.a
+[Wed Sep 07 21:32:28 BRT 2022][FINE] Start process objdump...
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] In archive /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libdisplay.a:
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] display.o:     file format elf64-littleaarch64
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] architecture: aarch64, flags 0x00000011:
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] HAS_RELOC, HAS_SYMS
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] start address 0x0000000000000000
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:28 BRT 2022][FINE] Result for objdump: 0
+[Wed Sep 07 21:32:28 BRT 2022][FINE] PB Command for objdump: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -f /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/liblifecycle.a
+[Wed Sep 07 21:32:28 BRT 2022][FINE] Start process objdump...
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] In archive /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/liblifecycle.a:
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] lifecycle.o:     file format elf64-littleaarch64
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] architecture: aarch64, flags 0x00000011:
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] HAS_RELOC, HAS_SYMS
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] start address 0x0000000000000000
+[Wed Sep 07 21:32:28 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:28 BRT 2022][FINE] Result for objdump: 0
+[Wed Sep 07 21:32:29 BRT 2022][FINE] PB Command for objdump: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -f /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libstatusbar.a
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Start process objdump...
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] In archive /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libstatusbar.a:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] statusbar.o:     file format elf64-littleaarch64
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] architecture: aarch64, flags 0x00000011:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] HAS_RELOC, HAS_SYMS
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] start address 0x0000000000000000
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Result for objdump: 0
+[Wed Sep 07 21:32:29 BRT 2022][FINE] PB Command for objdump: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -f /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libstorage.a
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Start process objdump...
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] In archive /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libstorage.a:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] storage.o:     file format elf64-littleaarch64
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] architecture: aarch64, flags 0x00000011:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] HAS_RELOC, HAS_SYMS
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] start address 0x0000000000000000
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Result for objdump: 0
+[Wed Sep 07 21:32:29 BRT 2022][FINE] PB Command for objdump: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -f /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libutil.a
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Start process objdump...
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] In archive /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/lib/libutil.a:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] util.o:     file format elf64-littleaarch64
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] architecture: aarch64, flags 0x00000011:
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] HAS_RELOC, HAS_SYMS
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] start address 0x0000000000000000
+[Wed Sep 07 21:32:29 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Result for objdump: 0
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/launcher.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/javafx_adapter.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/touch_events.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/glibc_shim.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/attach_adapter.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/logger.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/grandroid.h
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Looking for resource: /native/android/c/grandroid_ext.h
+[Wed Sep 07 21:32:29 BRT 2022][FINE] PB Command for compile-additional-sources: /root/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -c -DSUBSTRATE -target aarch64-linux-android -I. -DGVM_17 -I/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma launcher.c javafx_adapter.c touch_events.c glibc_shim.c attach_adapter.c logger.c
+[Wed Sep 07 21:32:29 BRT 2022][FINE] Start process compile-additional-sources...
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] launcher.c:49:12: warning: 'extern' variable has an initializer [-Wextern-initializer]
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] extern int __svm_vm_is_static_binary __attribute__((weak)) = 1;
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]            ^
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] 1 warning generated.
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] javafx_adapter.c:119:5: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     ATTACH_DALVIK();
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     ^~~~~~~~~~~~~~~
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] ./grandroid_ext.h:81:56: note: expanded from macro 'ATTACH_DALVIK'
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     (*dalvikVM)->AttachCurrentThreadAsDaemon(dalvikVM, (void **) &dalvikEnv, NULL); \
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]                                                        ^~~~~~~~~~~~~~~~~~~~
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] javafx_adapter.c:140:5: warning: incompatible pointer types passing 'void **' to parameter of type 'JNIEnv **' (aka 'const struct JNINativeInterface ***') [-Wincompatible-pointer-types]
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     ATTACH_DALVIK();
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     ^~~~~~~~~~~~~~~
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] ./grandroid_ext.h:81:56: note: expanded from macro 'ATTACH_DALVIK'
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]     (*dalvikVM)->AttachCurrentThreadAsDaemon(dalvikVM, (void **) &dalvikEnv, NULL); \
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB]                                                        ^~~~~~~~~~~~~~~~~~~~
+[Wed Sep 07 21:32:36 BRT 2022][FINE] [SUB] 2 warnings generated.
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Result for compile-additional-sources: 0
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes8050154893657561798/fxml/calculadora.fxml
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes8050154893657561798/icon.png
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes8050154893657561798/META-INF/MANIFEST.MF
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes8050154893657561798/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes8050154893657561798/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes8050154893657561798/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes8050154893657561798/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes8050154893657561798/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes8050154893657561798/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes8050154893657561798/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes8050154893657561798/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes8050154893657561798/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes8050154893657561798/style/calculadora-style.css
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes8050154893657561798/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:32:36 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes8050154893657561798/classes.jar -C /tmp/classes8050154893657561798 .
+[Wed Sep 07 21:32:36 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning for init build time files
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar::META-INF/substrate/config/initbuildtime-aarch64-android
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /tmp/classes8050154893657561798/classes.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning for reflection files
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /tmp/classes8050154893657561798/classes.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning for JNI files
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar::META-INF/substrate/config/jniconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-aarch64-android.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /tmp/classes8050154893657561798/classes.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning for resource files
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Scanning /tmp/classes8050154893657561798/classes.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] FileSystem for resource jar:file:/root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar!/com/gluonhq/substrate/ not found. Trying to create a new FileSystem instead.
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Created FileSystem for resource jar:file:/root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar!/com/gluonhq/substrate/: /root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes14827308190565078647/fxml/calculadora.fxml
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes14827308190565078647/icon.png
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes14827308190565078647/META-INF/MANIFEST.MF
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes14827308190565078647/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes14827308190565078647/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes14827308190565078647/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes14827308190565078647/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes14827308190565078647/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes14827308190565078647/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes14827308190565078647/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes14827308190565078647/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes14827308190565078647/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes14827308190565078647/style/calculadora-style.css
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes14827308190565078647/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:32:40 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes14827308190565078647/classes.jar -C /tmp/classes14827308190565078647 .
+[Wed Sep 07 21:32:40 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning for resource bundles
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Adding classes from /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Scanning /tmp/classes14827308190565078647/classes.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] PB Command for java-version: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/java --version
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Start process java-version...
+[Wed Sep 07 21:32:41 BRT 2022][FINE] [SUB] openjdk 17.0.3 2022-04-19
+[Wed Sep 07 21:32:41 BRT 2022][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Wed Sep 07 21:32:41 BRT 2022][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Result for java-version: 0
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/display-4.0.12-android.jar
+[Wed Sep 07 21:32:41 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/display-4.0.12.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/lifecycle-4.0.12.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/statusbar-4.0.12.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/storage-4.0.12-android.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/storage-4.0.12.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/util-4.0.12-android.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/util-4.0.12.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/jfoenix-9.0.1.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.base.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/javafx.base.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.controls.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/javafx.controls.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.fxml.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/javafx.fxml.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Copied resource /root/.gluon/substrate/javafxStaticSdk/19-ea+8/android-aarch64/sdk/lib/javafx.graphics.jar to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/deps/javafx.graphics.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/charm-glisten-6.0.6.jar deps/display-4.0.12-android.jar deps/display-4.0.12.jar deps/lifecycle-4.0.12-android.jar deps/lifecycle-4.0.12.jar deps/statusbar-4.0.12-android.jar deps/statusbar-4.0.12.jar deps/storage-4.0.12-android.jar deps/storage-4.0.12.jar deps/util-4.0.12-android.jar deps/util-4.0.12.jar deps/jfoenix-9.0.1.jar deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.fxml.jar deps/javafx.graphics.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Pathing jar created at /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/classpathJar.jar
+[Wed Sep 07 21:32:42 BRT 2022][FINE] PB Command for compile: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+ExitAfterRelocatableImageWrite -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp -H:EnableURLProtocols=http,https --initialize-at-build-time=com.gluonhq.charm.glisten.visual.MaterialDesignIcon -H:ReflectionConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/reflectionconfig-aarch64-android.json -H:JNIConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/jniconfig-aarch64-android.json -H:ResourceConfigurationFiles=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/resourceconfig-aarch64-android.json -H:-SpawnIsolates -Dsvm.targetArch=aarch64 -H:+ForceNoROSectionRelocations --libc=bionic -H:+UseCAPCache -H:CAPCacheDir=/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/capcache -H:CompilerBackend=lir -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$LINUX_AARCH64 -cp /root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar:/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/tmp/classpathJar.jar --allow-incomplete-classpath tk.leooresende01.calculadora.MainApplication
+[Wed Sep 07 21:32:42 BRT 2022][FINE] Start process compile...
+[Wed Sep 07 21:32:43 BRT 2022][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Wed Sep 07 21:32:44 BRT 2022][INFO] [SUB] Warning: Using a deprecated option --allow-incomplete-classpath from command line. Allowing an incomplete classpath is now the default. Use --link-at-build-time to report linking errors at image build time for a class or package.
+[Wed Sep 07 21:32:57 BRT 2022][INFO] [SUB] ========================================================================================================================
+[Wed Sep 07 21:32:57 BRT 2022][INFO] [SUB] GraalVM Native Image: Generating 'tk.leooresende01.calculadora.mainapplication' (shared library)...
+[Wed Sep 07 21:32:57 BRT 2022][INFO] [SUB] ========================================================================================================================
+[Wed Sep 07 21:32:58 BRT 2022][INFO] [SUB] Warning: Could not resolve com.sun.javafx.font.directwrite.DWRITE_GLYPH_METRICS for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWRITE_GLYPH_METRICS.
+[Wed Sep 07 21:32:58 BRT 2022][INFO] [SUB] Warning: Could not resolve com.sun.javafx.font.directwrite.DWRITE_GLYPH_RUN for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWRITE_GLYPH_RUN.
+[Wed Sep 07 21:32:58 BRT 2022][INFO] [SUB] Warning: Could not resolve com.sun.javafx.font.directwrite.RECT for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.RECT.
+[Wed Sep 07 21:33:01 BRT 2022][INFO] [SUB] Warning: Could not resolve com.sun.javafx.font.directwrite.DWFactory for reflection configuration. Reason: java.lang.ClassNotFoundException: com.sun.javafx.font.directwrite.DWFactory.
+[Wed Sep 07 21:33:03 BRT 2022][INFO] [SUB] [1/7] Initializing...                                                                                   (11.5s @ 0.16GB)
+[Wed Sep 07 21:33:03 BRT 2022][INFO] [SUB]  Version info: 'GraalVM 22.1.0.1 Java 17 CE'
+[Wed Sep 07 21:33:03 BRT 2022][INFO] [SUB]  Garbage collector: Serial GC
+[Wed Sep 07 21:33:03 BRT 2022][INFO] [SUB] The bundle named: com/sun/glass/ui/win/themes, has not been found. If the bundle is part of a module, verify the bundle name is a fully qualified class name. Otherwise verify the bundle path is accessible in the classpath.
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB] [2/7] Performing analysis...  [**********]                                                             (105.2s @ 2.20GB)
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB]   12,405 (90.58%) of 13,695 classes reachable
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB]   22,124 (65.87%) of 33,586 fields reachable
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB]   60,742 (63.85%) of 95,138 methods reachable
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB]      663 classes,   204 fields, and 3,026 methods registered for reflection
+[Wed Sep 07 21:34:49 BRT 2022][INFO] [SUB]      114 classes,   131 fields, and   185 methods registered for JNI access
+[Wed Sep 07 21:34:56 BRT 2022][INFO] [SUB] [3/7] Building universe...                                                                               (6.8s @ 3.02GB)
+[Wed Sep 07 21:35:01 BRT 2022][INFO] [SUB] [4/7] Parsing methods...      [**]                                                                       (4.3s @ 2.90GB)
+[Wed Sep 07 21:35:21 BRT 2022][INFO] [SUB] [5/7] Inlining methods...     [****]                                                                    (19.7s @ 1.47GB)
+[Wed Sep 07 21:36:26 BRT 2022][INFO] [SUB] [6/7] Compiling methods...    [********]                                                                (64.8s @ 2.19GB)
+[Wed Sep 07 21:36:49 BRT 2022][INFO] [SUB] 
+[Wed Sep 07 21:36:49 BRT 2022][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]                        28.4s (11.7% of total time) in 58 GCs | Peak RSS: 4.65GB | CPU load: 2.96
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB] Produced artifacts:
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]  /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication.h (header)
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]  /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/graal_isolate.h (header)
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]  /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication_dynamic.h (header)
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]  /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/graal_isolate_dynamic.h (header)
+[Wed Sep 07 21:36:50 BRT 2022][INFO] [SUB]  /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma/tk.leooresende01.calculadora.mainapplication.build_artifacts.txt
+[Wed Sep 07 21:36:51 BRT 2022][INFO] [SUB] ========================================================================================================================
+[Wed Sep 07 21:36:51 BRT 2022][INFO] [SUB] Finished generating 'tk.leooresende01.calculadora.mainapplication' in 3m 58s.
+[Wed Sep 07 21:36:54 BRT 2022][FINE] Result for compile: 0
+[Wed Sep 07 21:36:54 BRT 2022][FINE] Logging process [compile] to file: /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/log/process-compile-1662597414555.log
+[Wed Sep 07 21:36:56 BRT 2022][FINE] PB Command for java-version: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/java --version
+[Wed Sep 07 21:36:56 BRT 2022][FINE] Start process java-version...
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] openjdk 17.0.3 2022-04-19
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Wed Sep 07 21:37:11 BRT 2022][FINE] Result for java-version: 0
+[Wed Sep 07 21:37:11 BRT 2022][FINE] PB Command for check version: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/java -version
+[Wed Sep 07 21:37:11 BRT 2022][FINE] Start process check version...
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] openjdk version "17.0.3" 2022-04-19
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] OpenJDK Runtime Environment GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06)
+[Wed Sep 07 21:37:11 BRT 2022][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM 22.1.0.1 (build 17.0.3+7-jvmci-22.1-b06, mixed mode, sharing)
+[Wed Sep 07 21:37:11 BRT 2022][FINE] Result for check version: 0
+[Wed Sep 07 21:38:05 BRT 2022][INFO] ==================== PACKAGE TASK ====================
+[Wed Sep 07 21:38:05 BRT 2022][FINE] FileSystem for resource jar:file:/root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar!/com/gluonhq/substrate/ not found. Trying to create a new FileSystem instead.
+[Wed Sep 07 21:38:05 BRT 2022][FINE] Created FileSystem for resource jar:file:/root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar!/com/gluonhq/substrate/: /root/.m2/repository/com/gluonhq/substrate/0.0.54/substrate-0.0.54.jar
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes15655378122223198506/fxml/calculadora.fxml
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes15655378122223198506/icon.png
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes15655378122223198506/META-INF/MANIFEST.MF
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes15655378122223198506/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes15655378122223198506/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes15655378122223198506/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes15655378122223198506/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:38:09 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes15655378122223198506/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes15655378122223198506/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes15655378122223198506/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes15655378122223198506/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes15655378122223198506/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes15655378122223198506/style/calculadora-style.css
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes15655378122223198506/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:38:10 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes15655378122223198506/classes.jar -C /tmp/classes15655378122223198506 .
+[Wed Sep 07 21:38:10 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning for android dependencies files
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:38:14 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1.jar
+[Wed Sep 07 21:38:15 BRT 2022][FINE] Scanning /tmp/classes15655378122223198506/classes.jar
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes7444083151280150230/fxml/calculadora.fxml
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes7444083151280150230/icon.png
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes7444083151280150230/META-INF/MANIFEST.MF
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes7444083151280150230/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes7444083151280150230/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes7444083151280150230/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes7444083151280150230/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes7444083151280150230/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes7444083151280150230/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes7444083151280150230/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes7444083151280150230/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes7444083151280150230/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes7444083151280150230/style/calculadora-style.css
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes7444083151280150230/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:38:16 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes7444083151280150230/classes.jar -C /tmp/classes7444083151280150230 .
+[Wed Sep 07 21:38:16 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning for android permission files
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Scanning /tmp/classes7444083151280150230/classes.jar
+[Wed Sep 07 21:38:17 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/AndroidManifest.xml
+[Wed Sep 07 21:38:17 BRT 2022][INFO] Default Android manifest generated in /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/AndroidManifest.xml.
+Consider copying it to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/src/android/AndroidManifest.xml before performing any modification
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-hdpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-hdpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-ldpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-ldpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-mdpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-mdpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-xhdpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-xhdpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-xxhdpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res/mipmap-xxxhdpi/ic_launcher.png
+[Wed Sep 07 21:38:18 BRT 2022][INFO] Default Android resources generated in /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gensrc/android/res.
+Consider copying them to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/src/android/res before performing any modification
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes10913108423879627920/fxml/calculadora.fxml
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes10913108423879627920/icon.png
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes10913108423879627920/META-INF/MANIFEST.MF
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes10913108423879627920/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes10913108423879627920/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes10913108423879627920/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes10913108423879627920/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes10913108423879627920/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes10913108423879627920/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes10913108423879627920/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes10913108423879627920/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes10913108423879627920/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes10913108423879627920/style/calculadora-style.css
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes10913108423879627920/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:38:18 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes10913108423879627920/classes.jar -C /tmp/classes10913108423879627920 .
+[Wed Sep 07 21:38:18 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:38:19 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Scanning for dalvik classes
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/fxml/calculadora.fxml to /tmp/classes5268093791070249239/fxml/calculadora.fxml
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/icon.png to /tmp/classes5268093791070249239/icon.png
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/MANIFEST.MF to /tmp/classes5268093791070249239/META-INF/MANIFEST.MF
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties to /tmp/classes5268093791070249239/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.properties
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml to /tmp/classes5268093791070249239/META-INF/maven/tk.leooresende01.calculadora/calculadora-java-multi-plataforma/pom.xml
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/filter-file.json to /tmp/classes5268093791070249239/META-INF/native-image/filter-file.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/jni-config.json to /tmp/classes5268093791070249239/META-INF/native-image/jni-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/predefined-classes-config.json to /tmp/classes5268093791070249239/META-INF/native-image/predefined-classes-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/proxy-config.json to /tmp/classes5268093791070249239/META-INF/native-image/proxy-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/reflect-config.json to /tmp/classes5268093791070249239/META-INF/native-image/reflect-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/resource-config.json to /tmp/classes5268093791070249239/META-INF/native-image/resource-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/META-INF/native-image/serialization-config.json to /tmp/classes5268093791070249239/META-INF/native-image/serialization-config.json
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/style/calculadora-style.css to /tmp/classes5268093791070249239/style/calculadora-style.css
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/infra/controller/CalculadoraController.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/infra/service/CalculadoraService.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/infra/service/CalculadoraService.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/MainApplication.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/MainApplication.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/ui/scene/CalculadoraScene.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/ui/util/CalculadoraServiceUtil.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/classes/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class to /tmp/classes5268093791070249239/tk/leooresende01/calculadora/ui/util/CalculadoraUtil.class
+[Wed Sep 07 21:38:20 BRT 2022][FINE] PB Command for jar: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar cf /tmp/classes5268093791070249239/classes.jar -C /tmp/classes5268093791070249239 .
+[Wed Sep 07 21:38:20 BRT 2022][FINE] Start process jar...
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Result for jar: 0
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/charm-glisten/6.0.6/charm-glisten-6.0.6.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12-android.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/display/4.0.12/display-4.0.12.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12-android.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/lifecycle/4.0.12/lifecycle-4.0.12.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12-android.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/statusbar/4.0.12/statusbar-4.0.12.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12-android.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/storage/4.0.12/storage-4.0.12.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12-android.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/gluonhq/attach/util/4.0.12/util-4.0.12.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-fxml/17.0.0.1/javafx-fxml-17.0.0.1.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1-linux.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /root/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Scanning /tmp/classes5268093791070249239/classes.jar
+[Wed Sep 07 21:38:21 BRT 2022][FINE] PB Command for merge-dalvik-classes: /mnt/c/Graal/graalvm-svm-java17-linux-gluon-22.1.0.1-Final/bin/jar -cvf ../additional_classes.jar .
+[Wed Sep 07 21:38:21 BRT 2022][FINE] Start process merge-dalvik-classes...
+[Wed Sep 07 21:38:22 BRT 2022][FINE] [SUB] added manifest
+[Wed Sep 07 21:38:22 BRT 2022][FINE] Result for merge-dalvik-classes: 0
+[Wed Sep 07 21:38:24 BRT 2022][FINE] PB Command for package-task: /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/gradlew -p /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project assembleDebug
+[Wed Sep 07 21:38:24 BRT 2022][FINE] Start process package-task...
+[Wed Sep 07 21:38:47 BRT 2022][FINE] [SUB] To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+[Wed Sep 07 21:39:01 BRT 2022][FINE] [SUB] Daemon will be stopped at the end of the build 
+[Wed Sep 07 21:39:52 BRT 2022][FINE] [SUB] > Task :app:preBuild UP-TO-DATE
+[Wed Sep 07 21:39:52 BRT 2022][FINE] [SUB] > Task :app:preDebugBuild UP-TO-DATE
+[Wed Sep 07 21:39:52 BRT 2022][FINE] [SUB] > Task :app:compileDebugAidl NO-SOURCE
+[Wed Sep 07 21:39:52 BRT 2022][FINE] [SUB] > Task :app:compileDebugRenderscript NO-SOURCE
+[Wed Sep 07 21:39:53 BRT 2022][FINE] [SUB] > Task :app:generateDebugBuildConfig
+[Wed Sep 07 21:39:54 BRT 2022][FINE] [SUB] > Task :app:javaPreCompileDebug
+[Wed Sep 07 21:39:58 BRT 2022][FINE] [SUB] > Task :app:checkDebugAarMetadata
+[Wed Sep 07 21:39:58 BRT 2022][FINE] [SUB] > Task :app:generateDebugResValues
+[Wed Sep 07 21:39:58 BRT 2022][FINE] [SUB] > Task :app:generateDebugResources
+[Wed Sep 07 21:40:13 BRT 2022][FINE] [SUB] > Task :app:createDebugCompatibleScreenManifests
+[Wed Sep 07 21:40:13 BRT 2022][FINE] [SUB] > Task :app:extractDeepLinksDebug
+[Wed Sep 07 21:40:13 BRT 2022][FINE] [SUB] > Task :app:mergeDebugResources
+[Wed Sep 07 21:40:15 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:15 BRT 2022][FINE] [SUB] > Task :app:processDebugMainManifest
+[Wed Sep 07 21:40:15 BRT 2022][FINE] [SUB] [Display.aar] /root/.gradle/caches/transforms-3/076963b9d2898c33c318a5cdd66c8b2c/transformed/jetified-Display/AndroidManifest.xml Warning:
+[Wed Sep 07 21:40:15 BRT 2022][FINE] [SUB] 	Package name 'com.gluonhq.helloandroid' used in: Display.aar, Lifecycle.aar, Statusbar.aar, Storage.aar, Util.aar.
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:processDebugManifest
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:mergeDebugShaders
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:compileDebugShaders NO-SOURCE
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:generateDebugAssets UP-TO-DATE
+[Wed Sep 07 21:40:17 BRT 2022][FINE] [SUB] > Task :app:mergeDebugAssets
+[Wed Sep 07 21:40:18 BRT 2022][FINE] [SUB] > Task :app:compressDebugAssets
+[Wed Sep 07 21:40:18 BRT 2022][FINE] [SUB] > Task :app:processDebugJavaRes NO-SOURCE
+[Wed Sep 07 21:40:19 BRT 2022][FINE] [SUB] > Task :app:checkDebugDuplicateClasses
+[Wed Sep 07 21:40:26 BRT 2022][FINE] [SUB] > Task :app:mergeLibDexDebug
+[Wed Sep 07 21:40:27 BRT 2022][FINE] [SUB] > Task :app:desugarDebugFileDependencies
+[Wed Sep 07 21:40:29 BRT 2022][FINE] [SUB] > Task :app:mergeDebugJniLibFolders
+[Wed Sep 07 21:40:31 BRT 2022][FINE] [SUB] > Task :app:processDebugManifestForPackage
+[Wed Sep 07 21:40:35 BRT 2022][FINE] [SUB] > Task :app:validateSigningDebug
+[Wed Sep 07 21:40:36 BRT 2022][FINE] [SUB] > Task :app:writeDebugAppMetadata
+[Wed Sep 07 21:40:36 BRT 2022][FINE] [SUB] > Task :app:mergeExtDexDebug
+[Wed Sep 07 21:40:36 BRT 2022][FINE] [SUB] > Task :app:writeDebugSigningConfigVersions
+[Wed Sep 07 21:40:36 BRT 2022][FINE] [SUB] > Task :app:mergeDebugNativeLibs
+[Wed Sep 07 21:40:38 BRT 2022][FINE] [SUB] > Task :app:processDebugResources
+[Wed Sep 07 21:40:38 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:38 BRT 2022][FINE] [SUB] > Task :app:stripDebugDebugSymbols
+[Wed Sep 07 21:40:38 BRT 2022][FINE] [SUB] Unable to strip the following libraries, packaging them as they are: libfreetype.so, libsubstrate.so.
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] > Task :app:compileDebugJavaWithJavac
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] Note: /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/java/com/gluonhq/helloandroid/MainActivity.java uses or overrides a deprecated API.
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] Note: Recompile with -Xlint:deprecation for details.
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:47 BRT 2022][FINE] [SUB] > Task :app:compileDebugSources
+[Wed Sep 07 21:40:50 BRT 2022][FINE] [SUB] > Task :app:mergeDebugJavaResource
+[Wed Sep 07 21:40:53 BRT 2022][FINE] [SUB] > Task :app:dexBuilderDebug
+[Wed Sep 07 21:40:53 BRT 2022][FINE] [SUB] > Task :app:mergeProjectDexDebug
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] > Task :app:packageDebug
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] > Task :app:assembleDebug
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] See https://docs.gradle.org/7.3/userguide/command_line_interface.html#sec:command_line_warnings
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] BUILD SUCCESSFUL in 2m 33s
+[Wed Sep 07 21:40:58 BRT 2022][FINE] [SUB] 29 actionable tasks: 29 executed
+[Wed Sep 07 21:40:59 BRT 2022][FINE] Result for package-task: 0
+[Wed Sep 07 21:41:00 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/build/outputs/apk/debug/app-debug.apk to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma.apk
+[Wed Sep 07 21:41:00 BRT 2022][FINE] PB Command for bundle-task: /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/gradlew -p /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project bundleDebug
+[Wed Sep 07 21:41:00 BRT 2022][FINE] Start process bundle-task...
+[Wed Sep 07 21:41:01 BRT 2022][FINE] [SUB] To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.3/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+[Wed Sep 07 21:41:03 BRT 2022][FINE] [SUB] Daemon will be stopped at the end of the build 
+[Wed Sep 07 21:41:13 BRT 2022][FINE] [SUB] > Task :app:preBuild UP-TO-DATE
+[Wed Sep 07 21:41:13 BRT 2022][FINE] [SUB] > Task :app:preDebugBuild UP-TO-DATE
+[Wed Sep 07 21:41:13 BRT 2022][FINE] [SUB] > Task :app:compileDebugRenderscript NO-SOURCE
+[Wed Sep 07 21:41:13 BRT 2022][FINE] [SUB] > Task :app:generateDebugResValues UP-TO-DATE
+[Wed Sep 07 21:41:13 BRT 2022][FINE] [SUB] > Task :app:generateDebugResources UP-TO-DATE
+[Wed Sep 07 21:41:14 BRT 2022][FINE] [SUB] > Task :app:mergeDebugResources UP-TO-DATE
+[Wed Sep 07 21:41:14 BRT 2022][FINE] [SUB] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[Wed Sep 07 21:41:14 BRT 2022][FINE] [SUB] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[Wed Sep 07 21:41:14 BRT 2022][FINE] [SUB] > Task :app:processDebugMainManifest UP-TO-DATE
+[Wed Sep 07 21:41:14 BRT 2022][FINE] [SUB] > Task :app:processDebugManifest UP-TO-DATE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:processApplicationManifestDebugForBundle
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:mergeDebugShaders UP-TO-DATE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:compileDebugShaders NO-SOURCE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:generateDebugAssets UP-TO-DATE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:mergeDebugAssets UP-TO-DATE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:compileDebugAidl NO-SOURCE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:generateDebugBuildConfig UP-TO-DATE
+[Wed Sep 07 21:41:15 BRT 2022][FINE] [SUB] > Task :app:javaPreCompileDebug UP-TO-DATE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:processDebugResources UP-TO-DATE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:compileDebugJavaWithJavac UP-TO-DATE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:processDebugJavaRes NO-SOURCE
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:bundleDebugResources
+[Wed Sep 07 21:41:16 BRT 2022][FINE] [SUB] > Task :app:mergeDebugJavaResource UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:desugarDebugFileDependencies UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:mergeExtDexDebug UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:mergeLibDexDebug UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:dexBuilderDebug UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:mergeProjectDexDebug UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:mergeDebugNativeLibs UP-TO-DATE
+[Wed Sep 07 21:41:17 BRT 2022][FINE] [SUB] > Task :app:stripDebugDebugSymbols UP-TO-DATE
+[Wed Sep 07 21:41:19 BRT 2022][FINE] [SUB] > Task :app:buildDebugPreBundle
+[Wed Sep 07 21:41:19 BRT 2022][FINE] [SUB] > Task :app:writeDebugAppMetadata UP-TO-DATE
+[Wed Sep 07 21:41:19 BRT 2022][FINE] [SUB] > Task :app:parseDebugIntegrityConfig
+[Wed Sep 07 21:41:27 BRT 2022][FINE] [SUB] > Task :app:packageDebugBundle
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] > Task :app:signDebugBundle
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] > Task :app:produceDebugBundleIdeListingFile
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] > Task :app:bundleDebug
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] See https://docs.gradle.org/7.3/userguide/command_line_interface.html#sec:command_line_warnings
+[Wed Sep 07 21:41:33 BRT 2022][FINE] [SUB] 
+[Wed Sep 07 21:41:34 BRT 2022][FINE] [SUB] BUILD SUCCESSFUL in 32s
+[Wed Sep 07 21:41:34 BRT 2022][FINE] [SUB] 32 actionable tasks: 7 executed, 25 up-to-date
+[Wed Sep 07 21:41:34 BRT 2022][FINE] Result for bundle-task: 0
+[Wed Sep 07 21:41:34 BRT 2022][FINE] Copied resource /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/build/outputs/bundle/debug/app-debug.aab to /mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/Calculadora Java Multi-Plataforma.aab

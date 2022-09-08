@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tk.leooresende01.calculadora.calculadorajavamultiplataforma"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens android:xlargeScreens="true" />
+11-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:3:5-53
+11-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:3:23-51
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:4:5-66
+13-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[Storage.aar] /root/.gradle/caches/transforms-3/b1b01edca8eed0025aad3b3f860b38ab/transformed/jetified-Storage/AndroidManifest.xml:10:5-80
+14-->[Storage.aar] /root/.gradle/caches/transforms-3/b1b01edca8eed0025aad3b3f860b38ab/transformed/jetified-Storage/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[Storage.aar] /root/.gradle/caches/transforms-3/b1b01edca8eed0025aad3b3f860b38ab/transformed/jetified-Storage/AndroidManifest.xml:11:5-81
+15-->[Storage.aar] /root/.gradle/caches/transforms-3/b1b01edca8eed0025aad3b3f860b38ab/transformed/jetified-Storage/AndroidManifest.xml:11:22-78
+16
+17    <application
+17-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:5-14:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] /root/.gradle/caches/transforms-3/4a4d0ee94e08a03906b594d951275242/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:68-102
+21        android:label="Calculadora Java Multi-Plataforma" >
+21-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:6:18-67
+22        <activity
+22-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:7:9-12:20
+23            android:name="com.gluonhq.helloandroid.MainActivity"
+23-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:7:19-71
+24            android:configChanges="orientation|keyboardHidden" >
+24-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:7:72-122
+25            <intent-filter>
+25-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:8:14-11:30
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:9:17-76
+26-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:9:27-74
+27
+28                <action android:name="android.intent.action.MAIN" />
+28-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:10:17-68
+28-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:10:25-66
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.gluonhq.helloandroid.PermissionRequestActivity" />
+31-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:13:9-86
+31-->/mnt/c/Users/Maria Sônia/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/Calculadora Java Multi-Plataforma/target/gluonfx/aarch64-android/gvm/android_project/app/src/main/AndroidManifest.xml:13:19-84
+32    </application>
+33
+34</manifest>

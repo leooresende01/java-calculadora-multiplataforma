@@ -23,10 +23,10 @@ public class CalculadoraService {
 	}
 
 	public void definirEventoDosBotoesNumerais(Button... botoesNumerais) {
-		Stream.of(botoesNumerais).forEach(button -> this.adicionarEventoAoBotao(button));
+		Stream.of(botoesNumerais).forEach(button -> this.adicionarEventoAoBotaoNumeral(button));
 	}
 
-	private void adicionarEventoAoBotao(Button button) {
+	private void adicionarEventoAoBotaoNumeral(Button button) {
 		button.setOnAction(event -> this.adicionarNumeroAoCalculo(button.getText()));
 	}
 
@@ -40,7 +40,7 @@ public class CalculadoraService {
 			this.resultado.setText(this.resultado.getText() + text);
 	}
 
-	public void definirEventoDosBotaoDeApagar(Button apagar) {
+	public void definirEventoDoBotaoDeApagar(Button apagar) {
 		apagar.setOnAction(event -> {
 			String text = this.resultado.getText();
 			this.resultado.setText(text.substring(0, text.length() - 1));
@@ -65,7 +65,6 @@ public class CalculadoraService {
 	}
 
 	public void definirEventoDeCalcular(Button calcular) {
-		System.out.println("Chegou até a verificaçaõ");
 		calcular.setOnAction(event -> {
 			this.valor2 = new BigDecimal(this.resultado.getText().replace("e", ""));
 			if (CalculadoraServiceUtil.verificaSeOValorDosResultadosEhNulo(this.valor1, this.valor2)) {				

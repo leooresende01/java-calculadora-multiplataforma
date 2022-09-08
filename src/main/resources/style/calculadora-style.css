@@ -12,6 +12,11 @@
 }
 
 
+.botoes-calculos:showing {
+    -fx-color: -fx-base;
+}
+
+
 
 .botoes-numericos {
 	-fx-background-color: #393E46;
