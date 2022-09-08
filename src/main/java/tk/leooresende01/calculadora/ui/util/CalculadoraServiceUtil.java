@@ -25,7 +25,7 @@ public class CalculadoraServiceUtil {
 		if (operador.equals("+")) return valor1.add(valor2).toString();
 		if (operador.equals("x")) return valor1.multiply(valor2).toString();
 		if (operador.equals("-")) return valor1.subtract(valor2).toString();
-		if (operador.equals("/")) return valor1.divide(valor2, 2, RoundingMode.HALF_UP).toString();
+		if (operador.equals("÷")) return valor1.divide(valor2, 2, RoundingMode.HALF_UP).toString();
 		return "0";
 	}
 }

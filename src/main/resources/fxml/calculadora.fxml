@@ -43,7 +43,7 @@
                <children>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="3">
                      <children>
-                        <Label fx:id="resultado" layoutX="120.0" layoutY="41.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="10.0">
+                        <Label fx:id="resultado" layoutX="120.0" layoutY="41.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="-5.0" AnchorPane.rightAnchor="10.0">
                            <font>
                               <Font name="System Bold" size="36.0" />
                            </font>
@@ -55,9 +55,9 @@
                         </Label>
                      </children>
                   </AnchorPane>
-                  <Label fx:id="operador" textFill="WHITE" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+                  <Label fx:id="operador" textFill="#ffffff96" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
                      <font>
-                        <Font name="System Bold" size="42.0" />
+                        <Font name="System Italic" size="42.0" />
                      </font>
                      <padding>
                         <Insets left="5.0" />
@@ -142,9 +142,9 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button fx:id="divisao" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="botoes-calculos" stylesheets="@../style/calculadora-style.css" text="/" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button fx:id="divisao" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="botoes-calculos" stylesheets="@../style/calculadora-style.css" text="÷" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font size="29.0" />
                </font>
             </Button>
             <Button fx:id="multiplicacao" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="botoes-calculos" stylesheets="@../style/calculadora-style.css" text="x" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
@@ -154,7 +154,7 @@
             </Button>
             <Button fx:id="menos" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="65.0" prefWidth="75.0" styleClass="botoes-calculos" stylesheets="@../style/calculadora-style.css" text="-" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
                <font>
-                  <Font size="32.0" />
+                  <Font size="42.0" />
                </font>
             </Button>
             <Button fx:id="calcular" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="botao-resultado" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2">
