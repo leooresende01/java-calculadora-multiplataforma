@@ -1,4 +1,4 @@
-# Gluon Mobile - Single View
+#Calculadora Multi-Plataforma usando JavaFX + GluonFX
 
 Gluon Mobile Applications are Java application written in JavaFX.
 These applications ensure that developers can create high performance, great looking, and cloud connected mobile apps from a single Java code base.
