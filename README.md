@@ -1,8 +1,8 @@
 Calculadora Multi-Plataforma usando JavaFX + GluonFX
 
-<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; justify-content: center;">
   <img src="https://user-images.githubusercontent.com/95967506/189198244-070f7da8-cb10-4674-9c2a-590a884878c4.PNG" alt="Calculadora no Windows"/>
-  <img src="https://user-images.githubusercontent.com/95967506/189198419-4cc3a303-d224-41ef-83b0-e3961656af89.jpg" alt="Calculadora no Android" style="width: 350px; height: 450px"/>
+  <img src="https://user-images.githubusercontent.com/95967506/189198419-4cc3a303-d224-41ef-83b0-e3961656af89.jpg" alt="Calculadora no Android" style="width: 400px; height: 600px"/>
 <div>
 Gluon Mobile Applications are Java application written in JavaFX.
 These applications ensure that developers can create high performance, great looking, and cloud connected mobile apps from a single Java code base.
