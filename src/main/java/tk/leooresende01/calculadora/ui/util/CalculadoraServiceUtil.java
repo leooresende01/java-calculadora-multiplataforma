@@ -2,7 +2,6 @@ package tk.leooresende01.calculadora.ui.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
 import javafx.scene.control.Label;
 
 public class CalculadoraServiceUtil {

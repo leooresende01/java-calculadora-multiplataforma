@@ -2,7 +2,6 @@ package tk.leooresende01.calculadora.infra.service;
 
 import java.math.BigDecimal;
 import java.util.stream.Stream;
-
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import tk.leooresende01.calculadora.ui.util.CalculadoraServiceUtil;
