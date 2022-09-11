@@ -2,7 +2,7 @@ package tk.leooresende01.calculadora.infra.service;
 
 import java.math.BigDecimal;
 import java.util.stream.Stream;
-import javafx.scene.control.Button;
+
 import javafx.scene.control.Label;
 import tk.leooresende01.calculadora.ui.util.CalculadoraServiceUtil;
 
@@ -21,12 +21,12 @@ public class CalculadoraService {
 		this.valorQueVaiSerCalculado = valorQueVaiSerCalculado;
 	}
 
-	public void definirEventoDosBotoesNumerais(Button... botoesNumerais) {
+	public void definirEventoDosBotoesNumerais(Label... botoesNumerais) {
 		Stream.of(botoesNumerais).forEach(button -> this.adicionarEventoAoBotaoNumeral(button));
 	}
 
-	private void adicionarEventoAoBotaoNumeral(Button button) {
-		button.setOnAction(event -> this.adicionarNumeroAoCalculo(button.getText()));
+	private void adicionarEventoAoBotaoNumeral(Label button) {
+		button.setOnMouseClicked(event -> this.adicionarNumeroAoCalculo(button.getText()));
 	}
 
 	private void adicionarNumeroAoCalculo(String text) {
@@ -39,8 +39,8 @@ public class CalculadoraService {
 			this.resultado.setText(this.resultado.getText() + text);
 	}
 
-	public void definirEventoDoBotaoDeApagar(Button apagar) {
-		apagar.setOnAction(event -> {
+	public void definirEventoDoBotaoDeApagar(Label apagar) {
+		apagar.setOnMouseClicked(event -> {
 			String text = this.resultado.getText();
 			this.resultado.setText(text.substring(0, text.length() - 1));
 			if (this.resultado.getText().length() == 0)
@@ -49,12 +49,12 @@ public class CalculadoraService {
 		});
 	}
 
-	public void definirEventoAosBotoesOperadores(Button... botoesOperadores) {
+	public void definirEventoAosBotoesOperadores(Label... botoesOperadores) {
 		Stream.of(botoesOperadores).forEach(button -> this.definirEventosAoBotaoOperador(button));
 	}
 
-	private void definirEventosAoBotaoOperador(Button button) {
-		button.setOnAction(event -> {
+	private void definirEventosAoBotaoOperador(Label button) {
+		button.setOnMouseClicked(event -> {
 			String text = this.resultado.getText().replace("e", "");
 			if (this.valor1 != null || text.equals("0")) return;
 			this.operador.setText(button.getText());
@@ -64,8 +64,8 @@ public class CalculadoraService {
 		});
 	}
 
-	public void definirEventoDeCalcular(Button calcular) {
-		calcular.setOnAction(event -> {
+	public void definirEventoDeCalcular(Label calcular) {
+		calcular.setOnMouseClicked(event -> {
 			this.valor2 = new BigDecimal(this.resultado.getText().replace("e", ""));
 			if (CalculadoraServiceUtil.verificaSeOValorDosResultadosEhNulo(this.valor1, this.valor2)) {				
 				this.valor2 = new BigDecimal(this.resultado.getText());
@@ -77,8 +77,8 @@ public class CalculadoraService {
 		});
 	}
 
-	public void definirEventoDeResetarCalculo(Button resetarCalculos) {
-		resetarCalculos.setOnAction(event -> {
+	public void definirEventoDeResetarCalculo(Label resetarCalculos) {
+		resetarCalculos.setOnMouseClicked(event -> {
 			this.zerarTodosOsValores();
 			this.resultado.setText("0");
 		});
